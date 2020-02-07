@@ -1,0 +1,30 @@
+{
+  "name": "captcha-cv-ocr",
+  "version": "1.1.0",
+  "description": "Verification code identification based on OCR (Tesseract) and CV (OpenCV)",
+  "main": "index.js",
+  "scripts": {
+    "example": "node example.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PillarsZhang/captcha-cv-ocr.git"
+  },
+  "keywords": [
+    "verificationCode",
+    "identification",
+    "cv",
+    "ocr"
+  ],
+  "author": "Pillars Zhang <z@pizyds.com> (https://www.pizyds.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PillarsZhang/captcha-cv-ocr/issues"
+  },
+  "homepage": "https://github.com/PillarsZhang/captcha-cv-ocr#readme",
+  "dependencies": {
+    "is-url": "^1.2.4",
+    "tesseract.js": "^2.0.2"
+  }
+}
