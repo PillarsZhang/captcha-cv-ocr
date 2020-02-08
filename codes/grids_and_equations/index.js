@@ -1,5 +1,5 @@
 const tesseract_ocr = require("./tesseract_ocr");
-const opencv_cv = require("./opencv_cv");
+const opencv_cv = require("./opencv_cv2");
 
 var ocr;
 const cv = opencv_cv;
