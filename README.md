@@ -3,6 +3,11 @@
 
 <p align="center"><b>使用 CV (OpenCV) 和 OCR (Tesseract) 进行验证码识别</b></p>
 
+simplest | grids_and_equations | ...
+:-: | :-: | :-:
+<img src="./docs/img/simplest.jpg" height="20" alt="simplest" align=center> | <img src="./docs/img/grids_and_equations.jpg" height="20" alt="grids_and_equations" align=center> | ...
+2348 | 2x6=? | ...
+
 ## 快速入门
 
 ### 安装
@@ -53,9 +58,9 @@ var mode = "simplest";
 ## 开发
 
 ### 已支持
-simplest | grids_and_equations | ...
-:-: | :-: | :-:
-<img src="./docs/img/simplest.jpg" height="20" alt="simplest" align=center> | <img src="./docs/img/grids_and_equations.jpg" height="20" alt="grids_and_equations" align=center> | ...
+simplest | grids_and_equations
+:-: | :-:
+<img src="./docs/img/simplest.jpg" height="20" alt="simplest" align=center> | <img src="./docs/img/grids_and_equations.jpg" height="20" alt="grids_and_equations" align=center>
 
 ### 新支持
 
