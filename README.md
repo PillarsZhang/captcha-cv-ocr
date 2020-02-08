@@ -6,13 +6,13 @@
 ## 快速入门
 
 ### 安装
-因为所需的 OpenCV 支持模块 [opencv4nodejs](https://github.com/justadudewhohacks/opencv4nodejs) 体积较大，编译过程复杂，请手动全局安装，或者参考官方的安装指南：
+因为所需的 OpenCV 支持模块 [opencv4nodejs](https://github.com/justadudewhohacks/opencv4nodejs) 体积较大，编译过程复杂，请手动安装，或者参考官方的安装指南：
 
 ```bash
 npm i opencv4nodejs -g
 ```
 
-第二个 Tesseract 支持模块 [tesseract.js](https://github.com/naptha/tesseract.js) 已写入 `package.json`
+第二个 Tesseract 支持模块为 [tesseract.js](https://github.com/naptha/tesseract.js) 
 
 直接安装
 
@@ -26,7 +26,7 @@ npm i captcha-cv-ocr
 git clone https://github.com/PillarsZhang/captcha-cv-ocr
 cd captcha-cv-ocr
 npm install
-npm link            #相当于安装为全局模块
+npm link            #约等于安装为全局模块
 ```
 ### 测试
 

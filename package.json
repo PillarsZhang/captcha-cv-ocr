@@ -27,5 +27,8 @@
     "is-url": "^1.2.4",
     "node-fetch": "^2.6.0",
     "tesseract.js": "^2.0.2"
+  },
+  "peerDependencies": {
+    "opencv4nodejs": ">=5.5.0"
   }
 }
