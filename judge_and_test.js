@@ -2,7 +2,7 @@ const path = require("path");
 const fs = require("fs");
 const cvocrModule = require(".");
 
-global.debugFlag = 0;
+global.debugFlag = 1;
 
 var modeList = {
     "simplest" : (ans, rightAns) => ans.result == rightAns,
