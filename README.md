@@ -30,7 +30,7 @@ npm link            #相当于安装为全局模块
 ### 测试
 
 ```bash
-node test.js
+node test-all.js
 ```
 
 ### 用法
@@ -44,7 +44,7 @@ var mode = "simplest";
 (async () => {
     let cvocr = new cvocrModule(mode);  // mode 表示验证码的种类
     await cvocr.init(1);  //其中的1表示需要启动的 OCR Worker 数（多线程）
-    let ans = await cvocr.recognize(path.join(__dirname, "codes", mode, "example.jpg"));  //支持文件地址、Base64、Buffer形式
+    let ans = await cvocr.recognize(path.join(__dirname, "docs/img", mode + ".jpg"));  //支持文件地址、Base64、Buffer形式
     console.log("ans:", ans)
     process.exit(0);
 })()
@@ -54,7 +54,7 @@ var mode = "simplest";
 ### 已支持
 simplest | grids_and_equations | ...
 :-: | :-: | :-:
-<img src="./codes/simplest/example.jpg" height="20" alt="simplest" align=center> | <img src="./codes/grids_and_equations/example.jpg" height="20" alt="grids_and_equations" align=center> | ...
+<img src="./docs/img/simplest.jpg" height="20" alt="simplest" align=center> | <img src="./docs/img/grids_and_equations.jpg" height="20" alt="grids_and_equations" align=center> | ...
 
 ### 新支持
 
