@@ -2,8 +2,10 @@ const path = require("path");
 const fs = require("fs");
 const cvocrModule = require(".");
 
+//Debug等级
 global.debugFlag = 1;
 
+//验证码种类与各自的评估函数
 var modeList = {
     "simplest" : (ans, rightAns) => ans.result == rightAns,
     "grids_and_equations" : (ans, rightAns) => ans.equation.slice(0, 3) == rightAns,
