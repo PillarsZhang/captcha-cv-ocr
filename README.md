@@ -1,5 +1,6 @@
 
-<h2 align="center">CAPTCHA-CV-OCR</h2>
+<h1 align="center">CAPTCHA-CV-OCR</h1>
+
 <p align="center"><b>使用 CV (OpenCV) 和 OCR (Tesseract) 进行验证码识别</b></p>
 
 ## 快速入门
@@ -30,7 +31,7 @@ npm link            #相当于安装为全局模块
 ### 测试
 
 ```bash
-node test-all.js
+node judge_and_test.js
 ```
 
 ### 用法
@@ -58,7 +59,17 @@ simplest | grids_and_equations | ...
 
 ### 新支持
 
-codes下的文件夹对应着不同种类的名字（自行命名），你可以参照已有的目录的格式创建新的识别库来适配其他各种验证码。请查阅 [opencv4nodejs](https://github.com/justadudewhohacks/opencv4nodejs) 和 [tesseract.js](https://github.com/naptha/tesseract.js) 的文档
+codes下的文件夹对应着不同种类的名字（自行命名），你可以参照已有的模板与API创建新的识别库，来适配其他各种验证码。请珍惜 [opencv4nodejs](https://github.com/justadudewhohacks/opencv4nodejs) 和 [tesseract.js](https://github.com/naptha/tesseract.js) 的文档:
+
+- opencv4nodejs
+    - Github | https://github.com/justadudewhohacks/opencv4nodejs
+    - API | https://justadudewhohacks.github.io/opencv4nodejs/docs/Mat/
+- tesseract.js
+    - 主页 | https://tesseract.projectnaptha.com/
+    - Github | https://github.com/naptha/tesseract.js
+    - API | https://github.com/naptha/tesseract.js#docs
+
+另外 C++ / Python 的 OpenCV 海量资料也非常有帮助， 相应的函数基本都能在 [opencv4nodejs 的 API 文档](https://justadudewhohacks.github.io/opencv4nodejs/docs/Mat/) 里找到
 
 ## 维护者
 
