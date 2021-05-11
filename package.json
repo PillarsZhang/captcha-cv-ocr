@@ -26,7 +26,7 @@
   "dependencies": {
     "is-url": "^1.2.4",
     "mathjs": "^9.3.2",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "sharp": "^0.28.1",
     "tesseract.js": "^2.1.4",
     "tmp": "^0.2.1"
