@@ -9,6 +9,7 @@ global.debugFlag = 1;
 var modeList = {
     "simplest" : (ans, rightAns) => ans.result == rightAns,
     "grids_and_equations" : (ans, rightAns) => ans.equation.slice(0, 3) == rightAns,
+    "dots_and_chars" : (ans, rightAns) => ans.result == rightAns
 };
 
 (async () => {
@@ -16,7 +17,7 @@ var modeList = {
     for(let mode in modeList){
         let cvocr = new cvocrModule(mode);
         console.log(`--- ${++modeI}. ${mode} ---\n`);
-        await cvocr.init(2, 1);
+        await cvocr.init(4, 2);
 
         let examplePath = path.join(__dirname, "codes", mode, "examples");
         let files = fs.readdirSync(examplePath);
